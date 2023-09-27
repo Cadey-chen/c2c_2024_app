@@ -1,0 +1,16 @@
+.home {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin-top: 5%;
+}
+
+.home span {
+    color: white;
+    font-size: 50px;
+}
+
+.image-wrapper {
+    margin-left: 50%;
+}
