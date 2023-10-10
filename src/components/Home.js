@@ -11,9 +11,11 @@ function Home() {
     return (
         <div className="home">
             <div className="welcome-text">
-                <h2>Welcome&nbsp;to</h2>
-                <h2>Combining</h2>
-                <h2>two&nbsp;Cultures.</h2>
+                <h2 className='animate-character'>Welcome&nbsp;to</h2>
+                <br />
+                <h2 className='animate-character'>Combining</h2>
+                <br />
+                <h2 className='animate-character'>two&nbsp;Cultures.</h2>
                 <div className="welcome-paragraph">
                     <p>"Jack of all Trades." As student of interdisciplinary studies, </p>
                     <p>&nbsp;are often seen as a "jack of all trades, but master of none."</p>
@@ -27,12 +29,12 @@ function Home() {
                     color: 'white',
                     ml: '65%',
                     borderColor: 'white',
-                }}>Learn more</Button>
+                }} href="#intro">Learn more</Button>
             </div>
             <div className="image-wrapper-2">
                 <img src={c2cphoto} alt="The C2C group" height={400} width={610}/>
             </div>
-            <div className="intro-paragraph">
+            <div className="intro-paragraph" id="intro">
                 <h2>What&nbsp;is&nbsp;C2C?</h2>
                 <p>Combining Two Cultures (C2C) is a student-led conference that celebrates and supports interdisciplinary education among undergraduate students. </p>
                 <p>C2C welcomes participants from across Canada and abroad to interact with a community of like-minded individuals also interested in interdisciplinary studies.</p>
@@ -55,10 +57,9 @@ function Home() {
             </div>
             <div className="image-wrapper-4">
                 <img src={img2} alt="A Jack card" height={300} />
+                <img className="img-5" src={img3} alt="A sitting Jack" height={300}/>
             </div>
-            <div className="image-wrapper-5">
-                <img src={img3} alt="A sitting Jack" height={300} />
-            </div>
+            <div></div>
         </div>
     )
 }
