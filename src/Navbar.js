@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="logo">
-        <img src={c2clogo} alt="official logo of C2C" height={80} width={80}/>
+        <img src={c2clogo} alt="official logo of C2C" height={90} width={90}/>
       </div>
       <ul>
         <li><a href="/">Home</a></li>

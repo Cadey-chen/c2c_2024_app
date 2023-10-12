@@ -11,23 +11,19 @@ function Home() {
     return (
         <div className="home">
             <div className="welcome-text">
-                <h2 className='animate-character'>Welcome&nbsp;to</h2>
-                <br />
-                <h2 className='animate-character'>Combining</h2>
-                <br />
-                <h2 className='animate-character'>two&nbsp;Cultures.</h2>
-                <div className="welcome-paragraph">
-                    <p>"Jack of all Trades." As student of interdisciplinary studies, </p>
-                    <p>&nbsp;are often seen as a "jack of all trades, but master of none."</p>
+                <h2 className='animate-character'>Welcome&nbsp;to
+                <br />Combining
+                <br />two&nbsp;Cultures.</h2>
+                <div className="span-1">
+                    <span>"Jack of all Trades." As student of interdisciplinary studies <br/>
+                    are often seen as a "jack of all trades, but master of none."</span>
                 </div>
             </div>
-            <div className="image-wrapper">
-                <img src={c2clogo} alt="official logo of C2C" height={600} width={600}/>
-            </div>
-            <div className="buton-wrapper">
+            <img src={c2clogo} alt="official logo of C2C" className="image-wrapper" width={600}/>
+            <div className="button-wrapper">
                 <Button variant="outlined" sx={{
                     color: 'white',
-                    ml: '65%',
+                    alignItems: 'center',
                     borderColor: 'white',
                 }} href="#intro">Learn more</Button>
             </div>

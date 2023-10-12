@@ -1,4 +1,6 @@
+@media only screen and (min-width: 992px) {
 .navbar {
+    z-index: 1;
     background: black;
     display: flex;
     position: absolute;
@@ -29,4 +31,42 @@
 
 .logo {
     margin-left: 2%;
+}
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar {
+        z-index: 999;
+        background: black;
+        display: flex;
+        position: absolute;
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .navbar ul {
+        list-style: none;
+        padding: 0;
+        margin-left: 3%;
+    }
+    
+    .navbar li {
+        display: inline-flex;
+        flex-wrap: wrap;
+        position: relative;
+        margin-right: 10%;
+        top: 35%;
+    }
+    
+    .navbar a {
+        color: white;
+        font-family: 'SF Pro Display', sans-serif;
+        text-decoration: none;
+        font-style: bold;
+        font-size: 3vw;
+    }
+    
+    .logo {
+        margin-left: 2%;
+    }
 }
