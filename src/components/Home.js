@@ -28,7 +28,7 @@ function Home() {
                 }} href="#intro">Learn more</Button>
             </div>
             <div className="image-wrapper-2">
-                <img src={c2cphoto} alt="The C2C group" height={400} width={610}/>
+                <img src={c2cphoto} className="image-size-2" alt="The C2C group" height={400} width={610}/>
             </div>
             <div className="intro-paragraph" id="intro">
                 <h2>What&nbsp;is&nbsp;C2C?</h2>
@@ -49,11 +49,11 @@ function Home() {
                     and networking events.</p>
             </div>
             <div className="image-wrapper-3">
-                <img src={img1} alt="A wheel of knowledge" height={430}/>
+                <img src={img1} className="wheel" alt="A wheel of knowledge" height={430}/>
             </div>
             <div className="image-wrapper-4">
-                <img src={img2} alt="A Jack card" height={300} />
-                <img className="img-5" src={img3} alt="A sitting Jack" height={300}/>
+                <img src={img2} className="jack-card" alt="A Jack card" height={300} />
+                <img src={img3} className="img-5" alt="A sitting Jack" height={300}/>
             </div>
             <div></div>
         </div>
